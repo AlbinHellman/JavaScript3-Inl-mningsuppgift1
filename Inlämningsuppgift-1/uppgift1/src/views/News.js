@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
+import Post from '../komponenter/Post';
 import { getPosts } from '../store/actions/postsActions';
 
 const News = () => {
@@ -10,9 +11,11 @@ const News = () => {
         dispatch(getPosts());
     })
 
+    const posts = useSelector(state => state.postsReducer.posts)
+
     return (
         <div>
-            news
+            {posts && posts.map(post => <Post key={posts.id} post={post}  />)}
         </div>
     )
 }
