@@ -29,3 +29,23 @@ export const setPosts = posts => {
         payload: posts
     }
 }
+
+export const getOnePost = id => {
+    return async dispatch => {
+        dispatch(loading(true));
+
+        const res = await axios.get(`http://localhost:8080/posts/${id}`);
+
+        setTimeout(() => {
+            dispatch(setPost(res.data));
+            dispatch(loading(false));
+        }, 1000)
+    }
+}
+
+export const setPost = (post) => {
+    return {
+        type: actiontypes().posts.setPosts,
+        payload: post
+    }
+}

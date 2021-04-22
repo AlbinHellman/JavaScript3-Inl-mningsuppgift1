@@ -19,6 +19,11 @@ const postsReducer = (state = initState, action) => {
                     ...state,
                     posts: action.payload
                 }
+                case actiontypes().posts.setPost:
+                    return {
+                        ...state,
+                        post: action.payload
+                    }
 
         default: 
         return state;

@@ -3,7 +3,8 @@ const actiontypes = () => {
         posts: {
             getPosts: 'GET_POSTS',
             loading: 'LOADING',
-            setPosts: 'SET_POSTS'
+            setPosts: 'SET_POSTS',
+            setPost: 'SET_POST'
         }
     }
 }
