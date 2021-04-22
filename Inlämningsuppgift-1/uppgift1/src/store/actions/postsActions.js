@@ -8,8 +8,11 @@ export const getPosts = () => {
 
         const res = await axios.get('http://localhost:8080/posts');
 
+
+        setTimeout(() => {
         dispatch(setPosts(res.data));
         dispatch(loading(false));
+        }, 1000)
     }
 }
 

@@ -9,12 +9,14 @@ const News = () => {
 
     useEffect(() => {
         dispatch(getPosts());
-    })
+    }, [dispatch])
 
-    const posts = useSelector(state => state.postsReducer.posts)
+    const posts = useSelector(state => state.postsReducer.posts);
+    const loading = useSelector(state => state.postsReducer.loading);
 
     return (
         <div>
+            {loading && !posts && <p>Laddar...</p>}
             {posts && posts.map(post => <Post key={posts.id} post={post}  />)}
         </div>
     )
