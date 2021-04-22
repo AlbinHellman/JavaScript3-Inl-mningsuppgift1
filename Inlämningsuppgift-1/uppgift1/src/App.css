@@ -10,9 +10,7 @@ body, html {
   
 }
 
-.container {
- 
-}
+
 
 .navbar {
  padding: 1rem;
@@ -23,9 +21,9 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  margin-right: 2rem;
+  padding: 2rem;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .navbar-brand {
