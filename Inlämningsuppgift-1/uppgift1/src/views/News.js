@@ -5,21 +5,21 @@ import { getPosts } from '../store/actions/postsActions';
 
 const News = () => {
 
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(getPosts());
-    }, [dispatch])
+  useEffect(() => {
+    dispatch(getPosts());
+  }, [dispatch])
 
-    const posts = useSelector(state => state.postsReducer.posts);
-    const loading = useSelector(state => state.postsReducer.loading);
+  const posts = useSelector(state => state.postsReducer.posts);
+  const loading = useSelector(state => state.postsReducer.loading);
 
-    return (
-        <div>
-            {loading && !posts && <p>Laddar...</p>}
-            {posts && posts.map(post => <Post key={posts.id} post={post}  />)}
-        </div>
-    )
+  return (
+    <div>
+      {loading && !posts && <p>Loading...</p>}
+      {posts && posts.map(post => <Post key={post.id} post={post} />)}
+    </div>
+  )
 }
 
 export default News

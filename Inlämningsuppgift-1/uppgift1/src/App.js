@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './komponenter/navigation/Navbar';
@@ -11,11 +10,11 @@ function App() {
      <Navbar />
 
      <div className="container">
-       <switch>
+       <Switch>
          <Route exact path="/" component={News} />
 
          <Route exact path="/posts/:id" component={PostDetails} />
-       </switch>
+       </Switch>
      </div>
 
     </BrowserRouter>
