@@ -5,6 +5,10 @@ const actiontypes = () => {
             loading: 'LOADING',
             setPosts: 'SET_POSTS',
             setPost: 'SET_POST'
+        },
+        auth: {
+            login: 'LOGIN',
+            logout: 'LOGOUT'
         }
     }
 }
