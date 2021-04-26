@@ -22,7 +22,7 @@ const PostDetails = () => {
   const loading = useSelector(state => state.postsReducer.loading);
 
   const _post = ( post && 
-    <div>
+    <div className="centrera">
       <h2>{ post.title }</h2>
       <p>{ post.body }</p>
     </div>)

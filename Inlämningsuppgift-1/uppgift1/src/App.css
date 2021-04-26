@@ -80,5 +80,25 @@ body, html {
 
 }
 
+.centrera {
+  background-color:rgb(188, 188, 207);
+  height: 14rem;
+}
+
+.centrera h2 {
+  text-align: center;
+  padding: 4rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 2;
+}
+
+.centrera p {
+  text-align: center;
+  margin-top: -3rem;
+
+  
+
+}
+
 
 
