@@ -101,5 +101,31 @@ body, html {
 
 }
 
+.loggain h1 {
+  text-align: center;
+  padding: 3rem;
+}
+
+.loggain button {
+ color: rgb(188, 188, 207);
+ height: 2rem;
+ width: 5rem;
+ background-color: rgb(59, 59, 121);
+ border-radius: 12px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loggain button:hover {
+  background-color: rgb(178, 178, 224);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loggain {
+  text-align: center;
+  background-color:rgb(188, 188, 207);
+  height: 14rem;
+}
+
 
 
