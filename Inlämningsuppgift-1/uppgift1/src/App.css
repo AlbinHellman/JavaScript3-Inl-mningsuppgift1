@@ -129,5 +129,65 @@ body, html {
   height: 14rem;
 }
 
+.skapah1 {
+  text-align: center;
+  padding: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 2;
+  
+
+}
+
+
+
+
+
+.divcreate {
+  margin: 0 auto;
+  width: 33%;
+  
+}
+
+.titel4 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+
+}
+
+
+
+
+.skapabody {
+  margin: 0 auto;
+  width: 40%;
+  padding: 2rem;
+}
+
+.titel5 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+
+.diven {
+ background-color: rgb(188, 188, 207);
+ height: 45rem;
+ 
+ 
+}
+
+.knapp1 {
+  text-align: center;
+  
+}
+
+.längd {
+  width: 20rem;
+}
+
+.längd:hover {
+  color: white;
+  background-color: black;
+}
+
 
 

@@ -20,16 +20,22 @@ const Create = () => {
 
     return (
         <form onSubmit={handleSub}>
-            <h1>Skapa</h1>
-            <div>
-                <label htmlFor="titel">Titel: </label>
+            <div className="diven">
+            <h1 className="skapah1">Skapa</h1>
+            <div className="divcreate">
+                <div className="class">
+                <label htmlFor="title"><div className="titel4">Titel: </div></label>
+                </div>
                 <input type="text" id="title" ref={title} />
             </div>
-            <div>
-                <label htmlFor="body">Body: </label> <br/>
+            <div className="skapabody">
+                <label htmlFor="body"><div className="titel5">Body: </div></label> <br/>
                 <textarea id="body" cols="30" rows="10" ref={body} ></textarea>
             </div>
-            <button>Lägg Till</button>
+            <div className="knapp1">
+            <button className="längd">Lägg Till</button>
+            </div>
+            </div>
         </form>
         
     )
