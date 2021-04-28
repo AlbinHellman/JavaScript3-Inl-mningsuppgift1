@@ -176,12 +176,13 @@ font-weight: lighter;
 }
 
 .knapp1 {
-  text-align: center;
+  margin: 0 auto;
+  width: 34%;
   
 }
 
 .längd {
-  width: 20rem;
+  width: 20.5rem;
 }
 
 .längd:hover {
