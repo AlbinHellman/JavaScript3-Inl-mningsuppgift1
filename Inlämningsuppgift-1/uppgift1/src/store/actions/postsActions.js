@@ -49,3 +49,14 @@ export const setPost = (post) => {
         payload: post
     }
 }
+
+export const addPost = (title, body) => {
+    return () => {
+        const post = {
+            title,
+            body,
+            created: Date.now()
+        }
+        axios.post('http://localhost:8080/posts', post)
+    }
+}

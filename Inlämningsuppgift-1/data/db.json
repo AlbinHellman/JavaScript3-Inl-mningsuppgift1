@@ -1,24 +1,28 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "produkt 1",
-            "body": "Här är den första produkten",
-            "created": 1
-        },
-        {
-            "id": 2,
-            "title": "produkt 2",
-            "body": "Här är den andra produkten",
-            "created": 3
-
-        },
-        {
-            "id": 3,
-            "title": "produkt 3",
-            "body": "Här är den tredje produkten",
-            "created": 2
-
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "produkt 1",
+      "body": "Här är den första produkten",
+      "created": 1
+    },
+    {
+      "id": 2,
+      "title": "produkt 2",
+      "body": "Här är den andra produkten",
+      "created": 3
+    },
+    {
+      "id": 3,
+      "title": "produkt 3",
+      "body": "Här är den tredje produkten",
+      "created": 2
+    },
+    {
+      "title": "tjqw",
+      "body": "dand",
+      "created": 1619573631940,
+      "id": 4
+    }
+  ]
 }

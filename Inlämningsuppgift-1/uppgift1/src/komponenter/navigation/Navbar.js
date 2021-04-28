@@ -19,7 +19,7 @@ const Navbar = () => {
                    
                   {/*  <li><NavLink exact to="/login" className="nav-link" activeClassName="active-link">Logga In</NavLink></li> */}
                   {
-                      isAuth ? <li><NavLink exact to="/create" className="nav-link" activeClassName="active-link">Skapa Nytt</NavLink></li>
+                      isAuth ? <li><NavLink exact to="/create" className="nav-link" activeClassName="active-link">Skapa Ny Produkt</NavLink></li>
                      : <li><NavLink exact to="/login" className="nav-link" activeClassName="active-link">Logga In</NavLink></li>
                   }
                     </ul>
