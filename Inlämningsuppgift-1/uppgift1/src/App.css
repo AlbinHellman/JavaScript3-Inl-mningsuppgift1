@@ -58,6 +58,52 @@ body, html {
   background-color: rgb(88, 9, 214);
 }
 
+
+
+.navbar ul {
+  float: left;
+}
+
+.navbar  ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.navbar ul li a {
+  display: block;
+  font-family: arial;
+  color: #222;
+  font-size: 14px;
+  padding: 24px 14px;
+  text-decoration: none;
+}
+
+.navbar ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+  
+}
+
+.navbar ul li:hover ul {
+  display: block;
+}
+
+.navbar ul li ul li {
+  width: 180px;
+  border-radius: 4px;
+}
+
+.navbar ul li ul li a {
+  padding: 12px 14px;
+}
+.navbar ul li ul li a:hover {
+  color:rgb(88, 9, 214)
+}
+
 .post {
   margin: 0 auto;
   width: 60%;
