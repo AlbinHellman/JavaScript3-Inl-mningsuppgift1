@@ -9,6 +9,7 @@ const Post = ({post}) => {
             <Link to={`/posts/${post.id}`}>
                 <h2>{ post.title }</h2>
                 <p>{ post.body }</p>
+                <p>{ post.price }</p>
             </Link>
             
         </div>

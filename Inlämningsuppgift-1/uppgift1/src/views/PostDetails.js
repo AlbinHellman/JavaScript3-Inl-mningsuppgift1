@@ -23,8 +23,9 @@ const PostDetails = () => {
 
   const _post = ( post && 
     <div className="centrera">
-      <h2>{ post.title }</h2>
-      <p>{ post.body }</p>
+      <h1>{ post.title }</h1>
+      <h2>{ post.body }</h2>
+      <p>{ post.price }</p>
     </div>)
 
   return (

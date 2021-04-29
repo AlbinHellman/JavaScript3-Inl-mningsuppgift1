@@ -4,49 +4,23 @@
       "id": 1,
       "title": "produkt 1",
       "body": "Här är den första produkten",
+      "price": "200kr",
       "created": 1
     },
     {
       "id": 2,
       "title": "produkt 2",
       "body": "Här är den andra produkten",
+      "price": "7000kr",
       "created": 3
     },
     {
       "id": 3,
       "title": "produkt 3",
       "body": "Här är den tredje produkten",
+      "price": "3300kr",
       "created": 2
-    },
-    {
-      "title": "tjqw",
-      "body": "dand",
-      "created": 1619573631940,
-      "id": 4
-    },
-    {
-      "title": "",
-      "body": "",
-      "created": 1619574206343,
-      "id": 5
-    },
-    {
-      "title": "",
-      "body": "",
-      "created": 1619574218523,
-      "id": 6
-    },
-    {
-      "title": "",
-      "body": "",
-      "created": 1619574224613,
-      "id": 7
-    },
-    {
-      "title": "knsd",
-      "body": "sdf",
-      "created": 1619574278983,
-      "id": 8
     }
+    
   ]
 }

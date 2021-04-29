@@ -48,11 +48,12 @@ export const setPost = (post) => {
   }
 }
 
-export const addPost = (title, body) => {
+export const addPost = (title, body, price) => {
   return () => {
     const post = {
       title,
       body,
+      price,
       created: Date.now()
     }
     axios.post('http://localhost:8080/posts', post)

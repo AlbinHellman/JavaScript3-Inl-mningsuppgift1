@@ -128,23 +128,28 @@ body, html {
 
 .centrera {
   background-color:rgb(188, 188, 207);
-  height: 14rem;
+  height: 16rem;
 }
 
-.centrera h2 {
+.centrera h1 {
   text-align: center;
   padding: 4rem;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 2;
 }
 
-.centrera p {
+.centrera h2 {
   text-align: center;
   margin-top: -3rem;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  font-weight: 3;
   
 
+}
+
+.centrera p {
+  text-align: center;
+  margin: 2rem;
 }
 
 .loggain h1 {
@@ -161,12 +166,14 @@ body, html {
  background-color: rgb(59, 59, 121);
  border-radius: 12px;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 1rem;
 }
 
 .loggain button:hover {
   background-color: rgb(178, 178, 224);
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 
 .loggain {
@@ -200,6 +207,11 @@ font-weight: lighter;
 
 }
 
+.priset {
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+}
+
 
 
 
@@ -216,7 +228,7 @@ font-weight: lighter;
 
 .diven {
  background-color: rgb(188, 188, 207);
- height: 45rem;
+ height: 50rem;
  
  
 }
