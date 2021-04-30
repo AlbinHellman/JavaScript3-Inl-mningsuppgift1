@@ -26,6 +26,9 @@ const PostDetails = () => {
       <h1>{ post.title }</h1>
       <h2>{ post.body }</h2>
       <p>{ post.price }</p>
+      <div className="divknapp">
+      <button>Lägg till i kundvagnen</button>
+      </div>
     </div>)
 
   return (

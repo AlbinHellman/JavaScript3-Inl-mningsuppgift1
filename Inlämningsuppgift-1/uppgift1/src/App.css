@@ -128,7 +128,7 @@ body, html {
 
 .centrera {
   background-color:rgb(188, 188, 207);
-  height: 16rem;
+  height: 21rem;
 }
 
 .centrera h1 {
@@ -151,6 +151,21 @@ body, html {
   text-align: center;
   margin: 2rem;
 }
+
+.divknapp {
+  text-align: center;
+ 
+  
+  
+}
+
+.divknapp button:hover {
+  
+  background: rgb(158, 155, 155);
+}
+
+
+
 
 .loggain h1 {
   text-align: center;
