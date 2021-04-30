@@ -126,6 +126,11 @@ body, html {
 
 }
 
+.divknapp2 button:hover {
+  
+  background: rgb(158, 155, 155);
+}
+
 .centrera {
   background-color:rgb(188, 188, 207);
   height: 21rem;

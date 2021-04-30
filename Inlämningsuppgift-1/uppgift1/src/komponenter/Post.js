@@ -10,6 +10,9 @@ const Post = ({post}) => {
                 <h2>{ post.title }</h2>
                 <p>{ post.body }</p>
                 <p>{ post.price }</p>
+                <div className="divknapp2">
+                <button>Lägg till i kundvagnen</button>
+                </div>
             </Link>
             
         </div>
