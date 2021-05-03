@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getOnePost, setPost } from '../store/actions/postsActions';
 import { useParams } from 'react-router-dom';
+import { addToCart } from '../../src/store/actions/cartActions'
 
-const PostDetails = () => {
+const PostDetails = ({product}) => {
 
   const id = useParams().id
   const dispatch = useDispatch();
@@ -27,7 +28,9 @@ const PostDetails = () => {
       <h2>{ post.body }</h2>
       <p>{ post.price }</p>
       <div className="divknapp">
-      <button>Lägg till i kundvagnen</button>
+      <button onClick={() => {
+        dispatch(addToCart(product))
+      }}>Lägg till i kundvagnen</button>
       </div>
     </div>)
 
