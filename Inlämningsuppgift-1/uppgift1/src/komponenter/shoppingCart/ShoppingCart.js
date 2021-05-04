@@ -8,8 +8,8 @@ const ShoppingCart = () => {
   const totalCartAmount = useSelector(state => state.cartReducer.totalCartAmount);
 
   const empty = (
-    <div className="p-2 d-flex align-items-center">
-      Your cart is empty
+    <div className="tomvagn p-2 d-flex align-items-center">
+     <p>Din kundvagn är tom.</p> 
     </div>
   )
 

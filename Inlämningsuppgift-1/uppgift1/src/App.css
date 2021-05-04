@@ -104,6 +104,21 @@ body, html {
   color:rgb(88, 9, 214)
 }
 
+.tomvagn p{
+  font-size: 1rem;
+  color: rgb(19, 19, 59);
+  margin-left: -2rem;
+}
+
+.total-price {
+  font-size: 1rem;
+}
+
+.productnamn {
+  margin-left: -3rem;
+  font-size: 1rem;
+}
+
 .post {
   margin: 0 auto;
   width: 60%;

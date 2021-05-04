@@ -1,3 +1,4 @@
+
 import actiontypes from '../actiontypes';
 
 export const login = () => {
@@ -13,4 +14,3 @@ export const logout = () => {
         payload: false
     }
 }
- 

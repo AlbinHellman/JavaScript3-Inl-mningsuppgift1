@@ -1,9 +1,14 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, deleteProduct, removeFromCart } from '../../store/actions/cartActions' 
+import {Link} from 'react-router-dom';
+import actiontypes from '/JavaScript3-Inlämningsuppgift-1/Inlämningsuppgift-1/uppgift1/src/store/actiontypes'
+
+
 
 const CartProduct = ({product}) => {
 
+const post = useSelector(state => state.postsReducer.post);
   const dispatch = useDispatch();
 
   const add = e => {
@@ -21,10 +26,10 @@ const CartProduct = ({product}) => {
       <div className="p-2 d-flex justify-content-between align-items-center">
 
         <div className="d-flex align-items-center">
-          <img src={product.image} alt="product" className="img-fluid image-width"/>
+          
           <div>
-            <div><strong>{ product.name }</strong></div>
-            <div><small>{ product.quantity } x { product.price }</small></div>
+            <div className="productnamn"><strong>{ post.title }</strong></div>
+            <div><small>{ product.quantity } x { post.price }</small></div>
           </div>
         </div>
 
